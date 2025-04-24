@@ -6,6 +6,6 @@ const db = new sqlite3.Database('library_db.sqlite', (err) => {
     } else {
         console.log('Conexão com o banco de dados estabelecida com sucesso.');
 }        
-});
+})
 
 export default db;
